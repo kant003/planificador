@@ -27,3 +27,15 @@ npm run build
 ```
 npm run preview
 ```
+
+
+## Publicar en github
+```
+git init
+ojo con el .gitignore
+git add .
+git commit -m "First commit"
+git branch -M main
+git remote add origin https://github.com/kant003/planificador.git
+git push origin main
+``` 
